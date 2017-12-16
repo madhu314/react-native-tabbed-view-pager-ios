@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		C2244E1F1FE53E640067FDDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2244E1E1FE53E640067FDDC /* AppDelegate.swift */; };
 		C2244E211FE53E640067FDDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2244E201FE53E640067FDDC /* ViewController.swift */; };
-		C2244E241FE53E640067FDDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2244E221FE53E640067FDDC /* Main.storyboard */; };
 		C2244E261FE53E640067FDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2244E251FE53E640067FDDC /* Assets.xcassets */; };
-		C2244E291FE53E640067FDDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2244E271FE53E640067FDDC /* LaunchScreen.storyboard */; };
+		C24454A31FE5472200BAABD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C24454A21FE5472200BAABD2 /* LaunchScreen.xib */; };
+		E4E0F331B38EFDCEA7BA5102 /* Pods_RNTabbedViewPager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7600D0CD576583473D49AF /* Pods_RNTabbedViewPager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A7600D0CD576583473D49AF /* Pods_RNTabbedViewPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNTabbedViewPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594731FAEBEC68FC5F30B93E /* Pods-RNTabbedViewPager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTabbedViewPager.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNTabbedViewPager/Pods-RNTabbedViewPager.release.xcconfig"; sourceTree = "<group>"; };
 		C2244E1B1FE53E640067FDDC /* RNTabbedViewPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNTabbedViewPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2244E1E1FE53E640067FDDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2244E201FE53E640067FDDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2244E231FE53E640067FDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2244E251FE53E640067FDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2244E281FE53E640067FDDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2244E2A1FE53E640067FDDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24454A21FE5472200BAABD2 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		F445C0854BEA8C11CAFA57BE /* Pods-RNTabbedViewPager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTabbedViewPager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNTabbedViewPager/Pods-RNTabbedViewPager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E0F331B38EFDCEA7BA5102 /* Pods_RNTabbedViewPager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +41,10 @@
 		C2244E121FE53E640067FDDC = {
 			isa = PBXGroup;
 			children = (
-				C2244E1D1FE53E640067FDDC /* RNTabbedViewPager */,
 				C2244E1C1FE53E640067FDDC /* Products */,
+				C2244E1D1FE53E640067FDDC /* RNTabbedViewPager */,
+				E0C7DC8A570385764AA0A7C8 /* Pods */,
+				DD442CCB012E92364FC393A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +60,29 @@
 			isa = PBXGroup;
 			children = (
 				C2244E1E1FE53E640067FDDC /* AppDelegate.swift */,
-				C2244E201FE53E640067FDDC /* ViewController.swift */,
-				C2244E221FE53E640067FDDC /* Main.storyboard */,
 				C2244E251FE53E640067FDDC /* Assets.xcassets */,
-				C2244E271FE53E640067FDDC /* LaunchScreen.storyboard */,
 				C2244E2A1FE53E640067FDDC /* Info.plist */,
+				C2244E201FE53E640067FDDC /* ViewController.swift */,
+				C24454A21FE5472200BAABD2 /* LaunchScreen.xib */,
 			);
 			path = RNTabbedViewPager;
+			sourceTree = "<group>";
+		};
+		DD442CCB012E92364FC393A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A7600D0CD576583473D49AF /* Pods_RNTabbedViewPager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0C7DC8A570385764AA0A7C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F445C0854BEA8C11CAFA57BE /* Pods-RNTabbedViewPager.debug.xcconfig */,
+				594731FAEBEC68FC5F30B93E /* Pods-RNTabbedViewPager.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +92,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2244E2D1FE53E640067FDDC /* Build configuration list for PBXNativeTarget "RNTabbedViewPager" */;
 			buildPhases = (
+				BD128C4CCCB9D4A258D864C0 /* [CP] Check Pods Manifest.lock */,
 				C2244E171FE53E640067FDDC /* Sources */,
 				C2244E181FE53E640067FDDC /* Frameworks */,
 				C2244E191FE53E640067FDDC /* Resources */,
+				B6B0050886EEE4E2C5C7F258 /* [CP] Embed Pods Frameworks */,
+				47AD0E5983DED0D13B1C8591 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,13 +147,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2244E291FE53E640067FDDC /* LaunchScreen.storyboard in Resources */,
+				C24454A31FE5472200BAABD2 /* LaunchScreen.xib in Resources */,
 				C2244E261FE53E640067FDDC /* Assets.xcassets in Resources */,
-				C2244E241FE53E640067FDDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47AD0E5983DED0D13B1C8591 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNTabbedViewPager/Pods-RNTabbedViewPager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B0050886EEE4E2C5C7F258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNTabbedViewPager/Pods-RNTabbedViewPager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD128C4CCCB9D4A258D864C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C2244E171FE53E640067FDDC /* Sources */ = {
@@ -142,25 +213,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C2244E221FE53E640067FDDC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2244E231FE53E640067FDDC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C2244E271FE53E640067FDDC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2244E281FE53E640067FDDC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C2244E2B1FE53E640067FDDC /* Debug */ = {
@@ -272,6 +324,7 @@
 		};
 		C2244E2E1FE53E640067FDDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F445C0854BEA8C11CAFA57BE /* Pods-RNTabbedViewPager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +339,7 @@
 		};
 		C2244E2F1FE53E640067FDDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594731FAEBEC68FC5F30B93E /* Pods-RNTabbedViewPager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
